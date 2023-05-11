@@ -1,0 +1,87 @@
+/* Header start  */
+header {
+  background-color: #ffffff;
+}
+
+
+
+/* Header end */
+
+/* Banner start  */
+
+.banner {
+  background-color: #f9f9ff;
+}
+.banerBtn {
+  background-color: #8490ff;
+  color: #fff;
+}
+/* Banner end */
+
+/* count  */
+.count {
+  background-color: #8490ff;
+}
+/* count  */
+
+/* price  */
+.price {
+  background-color: #f9f9ff;
+}
+.price .priceBox {
+  height: 500px;
+}
+.number {
+  height: 100px;
+  width: 100px;
+  background-color: #ececf0;
+  margin: auto;
+  line-height: 84px;
+}
+/* price  */
+
+/* team  */
+.team {
+  background-color: #ffffff;
+}
+
+.img-possition {
+  top: -44px;
+  left: 12px;
+}
+/* team  */
+
+/* contact  */
+.contact {
+  background-color: #f9f9ff;
+}
+form {
+  background-color: #ffffff;
+}
+/* contact  */
+
+
+
+@media (max-width:1199px){
+  .price .priceBox {
+    height: 578px;
+}
+}
+@media (max-width:996px){
+  .price .priceBox {
+    height: 529px;
+}
+}
+@media (max-width:991px){
+  .price .priceBox {
+    height: 666px;
+}
+
+button.btn.btn-outline-primary.btn-lg {
+  padding: 4px 25px;
+}
+.card {
+  width: 235px !important;
+  border: 1px solid red;
+}
+}
